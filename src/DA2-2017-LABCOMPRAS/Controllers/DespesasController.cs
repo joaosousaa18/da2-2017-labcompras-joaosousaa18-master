@@ -15,5 +15,12 @@ namespace DA2_2017_LABCOMPRAS.Controllers
         {
             return View();
         }
+
+
+        public IActionResult NovaDespesa()
+        {
+            return View();
+        }
     }
 }
+
