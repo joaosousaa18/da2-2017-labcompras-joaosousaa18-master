@@ -21,5 +21,9 @@ namespace DA2_2017_LABCOMPRAS.Controllers
             ViewBag.Texto = "SLB";
             return View();
         }
+        public IActionResult Despesa()
+        {
+            return View();
+        }
     }
 }

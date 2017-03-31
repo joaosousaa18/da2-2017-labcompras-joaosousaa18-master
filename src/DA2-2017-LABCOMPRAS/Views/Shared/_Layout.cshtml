@@ -18,6 +18,29 @@
 
 </head>
 <body>
+    <nav class="navbar	navbar-default	navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand"
+                   href="http://moodle.ips.pt/1617/course/view.php?id=915"
+                   title="DA2@Moodle!">DA2</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" datatarget="#DA2navbar">
+                    <span class="sr-only">Toggle	navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse	collapse" id="DA2navbar">
+                <ul class="nav	navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a asp-action="#">Home</a></li>
+                    <li><a asp-action="#">Despesa</a></li>
+                    <li><a asp-action="#">Conceito	3</a></li>
+                </ul>
+            </div>
+        </div> <!--/.container	-->
+    </nav>
     <div class="container"> 
         @RenderBody()
     </div>
